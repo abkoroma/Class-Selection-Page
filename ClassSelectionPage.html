@@ -6,15 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Selection</title>
     <link rel="stylesheet" href="./ClassSelectionPage.css">
-    <link rel="stylesheet" href="./ClassSelectionPage.js">
+    <script  type="module" src="./ClassSelectionPage.js"></script>
+    <script type="module" src="./api.js"></script>
 </head>
 <body>
     <div class="Page-title">
         <h1>Class Selection Page</h1>
     </div>
 
-    <div class="container">
-        
+    <main class="container">
+        <div class="course-bucket">
+            <p class="courses">Avaialable Courses</p>
+            <ul class="courses" id="course-name">
+                <li>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="course-bucket">
+            <p class="courses">Selected Courses</p>
+            <ul class="courses" id="selected">
+                <li>
+    
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <div class="credit">
+        <p class="courses"> Total Credit :</p>
+        <span id="credit-total">0</span>
+        <button class="select">Select</button>
     </div>
     
 </body>
